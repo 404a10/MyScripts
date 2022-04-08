@@ -5,7 +5,7 @@ echo "Path added to profile"
 source ~/.profile
 echo "System changed!"
 echo "Changing .bashrc..."
-echo "source ~/.profile" >> ~/.bashrc
+echo "source ~/.bashrc" >> ~/.profile
 echo "Done!"
 echo "Check go installation:"
 go version
